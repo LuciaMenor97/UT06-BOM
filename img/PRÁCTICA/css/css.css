@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body {
+    background-image: url("../img/fondo.jpg");
+    font-family: 'Walter Turncoat', bold;
+}
+
+#titulo {
+    font-size: 6rem;
+    color: white;
+}
+
+#menu {
+    border-radius: 25px;
+    background: #ffe854;
+    margin-bottom: 25px;
+}
+
+.nav-item:hover { 
+    background-color: #ff3345;
+    box-shadow: 0px 10px 140px 12px rgba(255,51,68,0.87);
+    border-radius: 50px;
+}
+
+.navbar-nav {
+    float:left;
+    left:25%;
+    list-style-type:none;
+    margin:0 auto;
+    padding:0;
+    position:relative;
+}
+   
+.navbar-nav li {
+    position:relative;
+    right:40%;
+}
+
+.nav-link {
+    font-size: 30px;
+}
+
+.carousel-item > img {
+    border-radius: 80px;
+}
+
+.carousel-caption {
+    background-color: white;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+}
+
+.texto_carousel {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.categoriah5 {
+    color: #ff3345;
+    font-size: 3rem;
+}
+
+.card {
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.card > img {
+    border-radius: 50px;
+    border-bottom-right-radius: 0px; 
+    border-bottom-left-radius: 0px;
+}
+
+.card-footer > button {
+    position:relative;
+    left: 30%;
+}
+
+.card-footer > button:hover {
+    background: #ffe854;
+}
+
+button {
+    border-radius: 50px;
+}
+
+footer {
+    color: white;
+    font-size: 1.5rem;
+}
